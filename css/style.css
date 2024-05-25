@@ -1,7 +1,20 @@
 
 :root {
-  brand-color: #3f51b5;
-}
+    --main-text: #757575;
+    --title-text: #212121;
+    --accent: #2196f3;
+    --main-bg: #ffffff;
+    --hero-bg: #2f303a;
+    --header-borderline: #e5e5e5;
+    --secondary-bg: #f5f4fa;
+    --partfolio-border: #eeeeee;
+    --soc-link: #afb1b8;
+    --soc-link-h: #ffffff;
+    --footerbcg-soc-link: #43444d;
+    --clients-border: #afb1b8;
+    --gap: 30px;
+    --item: 1;
+  }
 section.hero {
     background-color: #2f303a;
     ;
