@@ -19,6 +19,11 @@ section.hero {
     background-color: #2f303a;
     ;
    }
+body {
+  font-family: Roboto, sans-serif, Raleway;
+  background-color: var(--main-bg);
+  color: var(--main-text);
+}
    h1{
        color: #fff;
    }
