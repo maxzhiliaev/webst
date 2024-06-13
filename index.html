@@ -1,190 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="./css/reset.css" />
-    <link rel="stylesheet" href="./css/styles.css" />
-  </head>
-  <body>
-    <header class="header">
-      <div class="container">
-        <a class="header-logo" href="./index.html"
-          >Web
-          <span class="header-accent">Studio</span>
-        </a>
-        <nav class="header-nav">
-          <ul class="header-list">
-            <li class="header-item">
-              <a class="header-page" href="./index.html">Студія</a>
-            </li>
-            <li class="header-item">
-              <a class="header-page" href="./portfolio.html">Портфоліо</a>
-            </li>
-            <li class="header-item">
-              <a class="header-page" href="#">Контакти</a>
-            </li>
-          </ul>
-        </nav>
-        <ul class="header-contacts">
-          <li class="header-contact">
-            <a class="header-link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="header-contact">
-            <a class="header-link" href="tel:+380961111111"
-              >+38 096 111 11 11</a
-            >
-          </li>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./CSS/styles.css">
+</head>
+<body>
+   <header class="header">
+    <a href="#" class="header-logo">WebStudio</a>
+    <nav class="header-nav">
+        <ul class="header-list"> 
+            <li class="header-item"><a href="#" class="header-page">Студія</a></li>
+            <li  class="header-item"><a href="#" class="header-page">Портфоліо</a></li>
+            <li  class="header-item"><a href="#" class="header-page">Контакти</a></li>
         </ul>
-      </div>
-    </header>
+          <ul class="header-contacts"> 
+            <li class="header-item"><a href="https://mail.google.com/mail/u/0/?pli=1#inbox?compose=new" target="_blank">info@devstudio</a></li>
+            <li class="header-item"><a href="tel:+380961111111" target="_blank" class="header-link">+380961111111</a></li>
+         </ul>
+    </nav>
+   </header>
     <main>
-      <section class="hero">
-        <div class="container">
-          <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-          <button class="hero-button" type="button">Замовити послугу</button>
-        </div>
-      </section>
-      <!-- Секція: Переваги -->
-      <section class="advantages">
-        <div class="container">
-          <ul class="advantages-list">
-            <li class="advantages-item">
-              <h3 class="advantages-subtitle">УВАГА ДО ДЕТАЛЕЙ</h3>
-              <p class="advantages-desc">
-                Ідейні міркування, і навіть початок повсякденної роботи з
-                формування позиції.
-              </p>
-            </li>
-            <li class="advantages-item">
-              <h3 class="advantages-subtitle">ПУНКТУАЛЬНІСТЬ</h3>
-              <p class="advantages-desc">
-                Завдання організації, особливо рамки і місце навчання кадрів
-                тягне у себе.
-              </p>
-            </li>
-            <li class="advantages-item">
-              <h3 class="advantages-subtitle">ПЛАНУВАННЯ</h3>
-              <p class="advantages-desc">
-                Так само консультація з широким активом значною мірою зумовлює.
-              </p>
-            </li>
-            <li class="advantages-item">
-              <h3 class="advantages-subtitle">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-              <p class="advantages-desc">
-                Значимість цих проблем настільки очевидна, що реалізація
-                планових завдань.
-              </p>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <!-- Секція: Чим ми займаємося -->
-      <section class="doing">
-        <div class="container">
-          <h2 class="doing-title">Чим ми займаємося</h2>
-          <ul class="doing-list">
-            <li class="doing-item">
-              <img
-                class="doing-photo"
-                src="./img/doing/photo-1.jpg"
-                alt="Десктопні додатки"
-              />
-            </li>
-            <li class="doing-item">
-              <img
-                class="doing-photo"
-                src="./img/doing/photo-2.jpg"
-                alt="Мобільні додатки"
-              />
-            </li>
-            <li class="doing-item">
-              <img
-                class="doing-photo"
-                src="./img/doing/photo-3.jpg"
-                alt="Дизайнерські рішення"
-              />
-            </li>
-          </ul>
-        </div>
-      </section>
-      <section class="team">
-        <div class="container">
-          <h2 class="team-title">Наша команда</h2>
-          <ul class="team-list">
-            <li class="team-item">
-              <img
-                class="team-photo"
-                width="270"
-                src="./img/team/person-1.jpg"
-                alt="Ігор Дем'яненко"
-              />
-              <h3 class="team-subtitle">Ігор Дем'яненко</h3>
-              <p class="team-desc">Product Designer</p>
+    <section class="hero">
+        <h1 class="hero-title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
+    <button type="button" class="hero-button">Замовити послугу</button>
+    </section>
+    <section class="advantages">
+        <h2 class="advantages-title">Наші переваги </h2>
+      <ul class="advantages-list">
+       <li class="advantages-item">
+         <h3 class="advantages-subtitle">УВАГА ДО ДЕТАЛЕЙ</h3>
+         <p class="advantages-text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції </p>
+       </li>
+       <li  class="advantages-item">
+        <h3 class="advantages-subtitle">ПУНКТУАЛЬНІСТЬ</h3>
+        <p class="info-text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+       </li>
+       <li  class="advantages-item">
+        <h3 class="advantages-subtitle">ПЛАНУВАННЯ</h3>
+        <p class="advantages-text">Так само консультація з широким активом значною мірою зумовлює.</p> 
+       </li>
+       <li  class="advantages-item">
+        <h3 class="advantages-subtitle">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+        <p class="advantages-text">Значимість цих проблем настільки  очевидна, що реалізація планових завдань.</p>
+       </li>
+       </ul> 
+    </section>
+    <section class="work">
+        <h2  class="work-title">Чим ми займаємося</h2>
+        <ul class="work-list">
+           <li class="work-item"><img src="https://s3-alpha-sig.figma.com/img/8dac/6a22/eff34a388bbc6409758a002e5a58c3ca?Expires=1719187200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=YTH9x3oXDYOG5qrQqCME3DphavWKcJuwAxjasxuGGdg2SC8jPwk5TjVNtvJ4NNcsim47oinNRwy2IHq0YKCBc~U5Pi6su0QkZl3jB7-yzxhQwV6jCpZKQu9nfnHjCrpdMUu4bsTCvSXVeaigdQXvJqQzKf9m6Sf2MRc8YeejYF2dQRG9ruvwF5VSeSdPsSNqu8GsBhHnIM6nLWazHij~VHrts5vCfg4s7jJzegngatB8-QCrY6Qm8Sq44zulGGST56E-LCiovtYZ7~NU9tq2OA8GZY8mm4x6Iy-Zg33uzH72OzSj8L3vlCroBDXQml5qvOxk9W8wdKyNMprUK6~c3w__" alt="крупним планом зображення програміста, який працює на робочому столі в офісі" width="150" class="work-img"/></li>
+           <li class="work-item"><img src="https://s3-alpha-sig.figma.com/img/0159/0214/fe209b7db875477ca0f844823574082d?Expires=1719187200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ikcjV2Kr3EfHpo0qeFj9GWnbHZrU5ZWvNVbtG2Vb8qVbHsSloJ-ZPj8CuNBv4o1gTwu22iNVVSa8G0JUoF-mtCu6fLF0RLl0YyQz~Rpzoy8xZmbJzZ8SjyMy~jKKVnva5rz8dBfW56QfOEElM9BXLvt5PNrd1h6tufuBSR0hZwsKF9qybEVEXOQ7zAgTpA2PCHHV7l4b~TLZj3PC6xND908yBY-hFVHUbx2fh6cRwgrG9EOCgczoynRBVT6adcd2isIjwk3H3BuhdiWKMm~JF2VpimREgkeX1P-tM6D6s3wv6MCZmuOCL3zEBBDSyD1u8FVScCcuEDk43eFJVpyyfQ__" alt="дизайнери веб-інтерфейсу розробляють програми для смартфонів, команда творців працює над інтерфейсом мобільних телефонів" width="150" class="work-img"/></li>
+           <li class="work-item"><img src="https://s3-alpha-sig.figma.com/img/4ca1/03f5/ff490664ba91f138b9f708e01d65306a?Expires=1719187200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=flDEpVq7XgSodCzrAXJRKoJFRj6sWzYmXi~xErKv02xCFkWObGVJR1Mfr8ddrEvvGXko8rYru-U-FpLzy8xJDTRljxM88IpnTLWMONXCx1V8nLjExB-gjYnz6-ZEYaIHuPqHmsFBeqoRJL6QX82iB4jVcvkXC2IFOLvAxeTzouFS8TPoMh-npF49lKiTyE9~AyEaJZGof~0a0hajiUrkM5rKSwgVeQbUzmHVBgdaHS5BZl1e40r0cvqMyqWb95w~mbUB5ZgBv62sGdQ~CuyK3ttLi8ZXpwiQdLHF3g-bJiOejvXYTU4iQprjLyxajxYlCzVKHk1v~gsTKEVlBRJ0zA__" alt="творчий художник веб-дизайн із робочим графічним планшетом із вибором кольорів" width="150" class="work-img"/></li>
+        </ul>
+    </section>
+    <section class="team">
+        <h2 class="team-title">Наша команда</h2>
+        <ul class="team-list">
+            <li  class="team-item">
+                <img src="https://s3-alpha-sig.figma.com/img/8c1e/65c1/01b0562402f9066520924acac0be8dc7?Expires=1719187200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=l3Fdaxw5Z4fPLXhItx03HBvYyCUA0jeWPsthaCWlIPVgGOoRCi7Xg5Fea5sLmcQV3Xvg4jbNC9Cmqq4~oNyJuVzBJPJjZjs4odSN-q03rJpVrTX9h6WBnPinj43Znk~FFtrknekQvqLM3Z9RTavyzYiAnYuxBqeXjNjSMUnPJwQvso~RoUOTe0ZXMLchMPZ~ss8u08D~z21gU1XyggRFWi7yRzfjIfx9zPAkqD7Typ1UWZEPEB0tB23gXCrUkZ0flemT1e6aGxHogkuDoRcCTbovOrjwqYDDWizBp~rB-UBpJPip3En0II9N-CyyN-D7P7bwNvIFccfZd7pJ1YZRkQ__" alt="Ігор Дем'яненко фото" width="150"  class="team-img" />
+                <h3  class="team-subtitle">Ігор Дем'яненко</h3>
+                <p  class="team-text">Product Designer</p>
             </li>
             <li class="team-item">
-              <img
-                class="team-photo"
-                width="270"
-                src="./img/team/person-2.jpg"
-                alt="Ольга Рєпіна"
-              />
-              <h3 class="team-subtitle">Ольга Рєпіна</h3>
-              <p class="team-desc">Frontend Developer</p>
+                <img src="https://s3-alpha-sig.figma.com/img/cbc1/4371/8ed9ff0c05008e3e7ae5285b05efd211?Expires=1719187200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=YKPCS7T7csEX9s3a~huo1vP3zblDpHD9h0IJSTEeYQJM4XSvBqC72kqHFPQaswJ6X-p3ME9hGFCIicwwtzhIN8ewpfmWBTGLh874iRcJZM51g~1cL7YvlsF4A77bL1OQEgXkjBhbrwF4d5yXF1NeY-75AF1hzQi-9PDCeqRoPaGJytOiqrGT5ryH~PftMN6d7z2tjZB~E5QTAbLutNtgqaWCONk2rTIXkoTHvg~i5Xv7GYALh1qogbUKvlGi9Q75mt9c4YWi1kFfBqjGNGkGZOXK6Scdcqmky0U5ujMLxfWz--lGouG-WmQVwg1kpSl8TkCChnWX9fWd~iDxej7L~w__" alt="Ольга Рєпіна фото" width="150"  class="team-img"/>
+                <h3  class="team-subtitle">Ольга Рєпіна</h3>
+                <p class="team-text">Frontend Developer</p>
             </li>
             <li class="team-item">
-              <img
-                class="team-photo"
-                width="270"
-                src="./img/team/person-3.jpg"
-                alt="Микола Тарасов"
-              />
-              <h3 class="team-subtitle">Микола Тарасов</h3>
-              <p class="team-desc">Marketing</p>
+                <img src="https://s3-alpha-sig.figma.com/img/b9f5/1817/c03fb848ed9dfc89543bbe97156c3661?Expires=1719187200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=I-lIO5oQjvHJMXb4XAb02gdcvP09xGU1F~Y7N7XJ63LKxraooa~LJ8Y9h-vG4LX-zMBLgPsD6sJNW1x~FnE2uzgUweP7lqcNRCgzzsOICajZiaG4Kil8cdSEmD2IOYI4~wRe5gzGBrImFRJZrW0L2D-U~DFCNJvVmCm1QTgZTvnIK3WEOhMbojEXp~jUgHPlOKF-o4MRrpeS-G3cZ5ebr0GukZsuhu745YSX-hY1BTh4VY9bMRCrKcCUygxqdJen6e50qA8orUaLaD8yI2fR6Z2D1sL-1dEAmpRk9EPbgDJFbSiltjqzaSADAhaSFammoA~fkjjPBxuW9zwhnOw0Tg__" alt="Микола Тарасов фото" width="150"  class="team-img"/>
+                <h3  class="team-subtitle">Микола Тарасов</h3>
+                <p class="team-text">Marketing</p>
             </li>
             <li class="team-item">
-              <img
-                class="team-photo"
-                width="270"
-                src="./img/team/person-4.jpg"
-                alt="Михайло Єрмаков"
-              />
-              <h3 class="team-subtitle">Михайло Єрмаков</h3>
-              <p class="team-desc">UI Designer</p>
+                <img src="https://s3-alpha-sig.figma.com/img/335d/4d84/7ff905b2d5f56aa0d2b29aa48e997cd8?Expires=1719187200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cl7gA--4VMGST~Nuuz5V0FqhDerJWEQO399unM3BwNeNUJIhNj0foKIfOCAljPf-YPUxHMUjjoBBuzQ3idSbyWjZZSrf6vfJ1Wxqqa6NGjy7gbwNvuwQSHzACIs7ewrz116A1o1dBCgln-Jsdas5wFweegSiI690gaGckIV70LdE5lAstjl1IbjpEEs5Sdn0LSL~n~I2ZuvzsQ4CGuSyRLnUf6QhQmb9uE0N1s6vGnROHFX~o3L7J9aL5~h0-QyDdp6NJw1Br7R67eaFJC1WNg0XtnC~Rju1GuCmxby75a2k2LRTfw4NM7YmUPBIRaU81zM2MmlWW6U0E6RPoasiIA__" alt="Михайло Єрмаков фото" width="150"  class="team-img"/>
+                <h3  class="team-subtitle">Михайло Єрмаков</h3>
+                <p class="team-text">UI Designer</p>
             </li>
-          </ul>
-        </div>
-      </section>
+        </ul>
+    </section>
     </main>
     <footer class="footer">
-      <div class="container">
-        <a class="footer-logo" href="./index.html"
-          >Web
-          <span class="footer-accent">Studio</span>
-        </a>
-        <address class="footer-address">
-         <a href="https://www.google.com/maps/place/%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%8F+%D0%9B%D0%B5%D1%81%D1%96+%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D1%97%D0%B2,+02000/@50.5190802,30.4385136,17z/data=!3m1!4b1!4m6!3m5!1s0x40d4d29b9e369069:0xff64663a5fd75cd5!8m2!3d50.5190802!4d30.4385136!16s%2Fg%2F11hz60_tnl?entry=ttu" target="_blank"> м. Київ, пр-т Лесі Українки, 26</a> <br>
-                   <a href="https://mail.google.com/mail/u/0/?pli=1#inbox?compose=new" target="_blank">info@devstudio</a> <br>
-                   <a href="tel:+380961111111">+38 096 111 11 11</a>
+        <a href="#" class="footer-logo">WebStudio</a>
+        <address class="footer-adress">
+        <ul class="footer-list"> 
+            <li class="footer-item"><a href="https://www.google.com.ua/maps/place/%D0%B1%D1%83%D0%BB.+%D0%9B%D0%B5%D1%81%D0%B8+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D0%B5%D0%B2,+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%B0,+02000/@50.4265807,30.5383858,17z/data=!3m1!4b1!4m10!1m2!2m1!1z0LMuINCa0LjQtdCyLCDQv9GALdGCINCb0LXRgdC4INCj0LrRgNCw0LjQvdC60LgsIDI2!3m6!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858!15sCjPQsy4g0JrQuNC10LIsINC_0YAt0YIg0JvQtdGB0Lgg0KPQutGA0LDQuNC90LrQuCwgMjaSARFjb21wb3VuZF9idWlsZGluZ-ABAA!16s%2Fg%2F1tctq5jv?entry=ttu" target="_blank" class="footer-URL">м. Київ, пр-т Лесі Українки, 26</a></li>
+            <li><a href="tel:+380961111111" target="_blank" class="footer-link">+380961111111</a></li>  
+            <li><a href="https://mail.google.com/mail/u/0/?pli=1#inbox?compose=new" target="_blank">info@devstudio</a></li>
         </address>
-      </div>
     </footer>
-  </body>
+</body>
 </html>
